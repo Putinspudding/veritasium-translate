@@ -2,54 +2,66 @@
 00:00:00,230 --> 00:00:02,840
 - Alright, I'm about to
 go for my first ever ride
+好，现在我将要第一次乘坐
 
 2
 00:00:02,840 --> 00:00:05,340
 in a fully autonomous vehicle.
+一辆全自动的汽车
 
 3
 00:00:09,890 --> 00:00:11,583
 Whoa, no driver.
+哇，没有司机
 
 4
 00:00:14,230 --> 00:00:15,063
 All right.
+好
 
 5
 00:00:15,063 --> 00:00:16,410
 - [Electronic Voice] Good morning, Derek.
+- Derek 早啊
 
 6
 00:00:16,410 --> 00:00:19,220
 This car is all yours
 with no one up front.
+前排没有人
 
 7
 00:00:19,220 --> 00:00:22,967
 - I really like the idea of
 fully autonomous vehicles,
+全自动驾驶汽车这个概念针不戳
 
 8
 00:00:22,967 --> 00:00:26,890
 but it's weird getting
 into a car with no driver
+但是坐上一辆没司机的车还很信任它
 
 9
 00:00:26,890 --> 00:00:28,940
-and just trusting the car.
+[and ](-> who?) just trusting the car. (-> ?) # REVIEW
+就十分诡异了
 
 10
 00:00:28,940 --> 00:00:32,310
 I'm gonna report back how this ride goes
+等下我来分享一下体验如何
 
 11
 00:00:32,310 --> 00:00:34,210
 and how I feel about it.
+以及我自己的一些观点
 
 12
 00:00:34,210 --> 00:00:37,453
 Oh, but full disclosure, this
 video is sponsored by Waymo.
+但是先说清楚 本视频由 Waymo 赞助
 
 13
 00:00:41,585 --> 00:00:43,274
@@ -63,119 +75,145 @@ video is sponsored by Waymo.
 00:00:44,107 --> 00:00:46,577
 Start ride.
 (car navigation chiming)
+出发！
 
 16
 00:00:46,577 --> 00:00:47,410
 Ha ha!
+哈哈
 
 17
 00:00:47,410 --> 00:00:49,127
 - [Electronic Voice] Make sure
 your seatbelt is fastened.
+请确保系好安全带
 
 18
 00:00:49,127 --> 00:00:50,450
 (Derek vocalizes)
 For any questions,
+如有任何问题
 
 19
 00:00:50,450 --> 00:00:53,930
 press the Help button to speak
 with a rider support agent.
+请按下帮助按钮来与客服通话
 
 20
 00:00:53,930 --> 00:00:56,630
 - Okay. Now let's see where we go.
+好，现在看看我们往哪走
 
 21
 00:00:56,630 --> 00:00:59,480
 It's looking at this car coming
 here. What's it gonna do?
+那边来了一辆车 它会怎么应对呢
 
 22
 00:01:00,590 --> 00:01:04,070
 Oh, and it pulls in
 very smoothly behind it.
+刚好停在它前面
 
 23
 00:01:04,070 --> 00:01:06,430
 No problems. Did not turn into traffic.
+没问题 没撞上去
 
 24
 00:01:06,430 --> 00:01:09,460
 Waited until the cars
 went, and then it turned.
+等到前面车走了才转弯
 
 25
 00:01:09,460 --> 00:01:10,293
 I like that.
+挺棒的
 
 26
 00:01:11,350 --> 00:01:14,250
 I polled YouTube viewers
 about autonomous vehicles
+我在油管上开了一个自动驾驶汽车的投票
 
 27
 00:01:14,250 --> 00:01:16,500
 and half of you are excited
+有一半的参与者非常想尝试
 
 28
 00:01:16,500 --> 00:01:18,500
 and ready for them to be on the roads,
+并且认为这些车已经适合上路了
 
 29
 00:01:18,500 --> 00:01:21,350
 but over 40% said you
 thought the technology
+但是有超过 40% 的投票者认为
 
 30
 00:01:21,350 --> 00:01:24,010
 was still over 10 years away.
+还要至少十年才会有真正的自动驾驶汽车
 
 31
 00:01:24,010 --> 00:01:26,990
 And for those people, I have news,
+对于这些人呢 我有件事要告诉你
 
 32
 00:01:26,990 --> 00:01:30,420
 which is that, well, there
 is no driver in this car.
+这车上没有司机
 
 33
 00:01:30,420 --> 00:01:34,580
 I'm currently inside a fully
 autonomous vehicle driving
+我正在一辆全自动驾驶的汽车
 
 34
 00:01:34,580 --> 00:01:36,903
 around a suburb of Phoenix, Arizona.
+在亚利桑那州的凤凰城市郊开着
 
 35
 00:01:37,880 --> 00:01:39,930
 Now I get that in some parts of the world,
+我知道如果去到世界上一些
 
 36
 00:01:39,930 --> 00:01:41,960
 like, the roads aren't
 well enough maintained
+路况不是这么好
 
 37
 00:01:41,960 --> 00:01:44,570
 and people don't stay in
 their lane necessarily,
+人们也不好好开车的城市
 
 38
 00:01:44,570 --> 00:01:46,850
 and so it'd be very hard for
 a computer to drive there,
+那这自动驾驶可能就有点菜了
 
 39
 00:01:46,850 --> 00:01:49,090
 but at least under good conditions,
+但是至少在比较好的情况下
 
 40
 00:01:49,090 --> 00:01:51,583
 the technology is currently functional.
+自动驾驶还是能用的
 
 41
 00:01:51,583 --> 00:01:54,416
@@ -188,63 +226,76 @@ the technology is currently functional.
 43
 00:01:58,840 --> 00:02:00,170
 - Now Waymo started out
+Waymo 一开始是
 
 44
 00:02:00,170 --> 00:02:02,910
 as the Google self-driving car project
+谷歌的自动驾驶项目
 
 45
 00:02:02,910 --> 00:02:05,783
 with what is possibly one of
 the cutest cars ever made.
+用着世界上最可可爱的车
 
 46
 00:02:08,770 --> 00:02:12,980
 I am inside the world's first
 fully autonomous vehicle.
+我现在坐上了世界上第一辆全自动驾驶汽车
 
 47
 00:02:12,980 --> 00:02:17,770
-Back in October 2015, this
-car went on a public road,
+Back in October 2015, 
+2015 年十月
 
 48
 00:02:17,770 --> 00:02:19,360
-ridden by Steve Mann,
+this car went on a public road, ridden by Steve Mann,
+这辆被形象命名为萤火虫的车
 
 49
 00:02:19,360 --> 00:02:22,180
 who has a disability, he is legally blind,
+搭着 Steve Mann 出发了
 
 50
 00:02:22,180 --> 00:02:25,180
 but he could get around in this thing,
+他是一位盲人
 
 51
 00:02:25,180 --> 00:02:28,600
 which is affectionately
 known as the Firefly.
+但是他却能搭着这车到处晃
 
 52
 00:02:28,600 --> 00:02:30,300
 This is such a simple vehicle.
+这车真的超级精简
 
 53
 00:02:30,300 --> 00:02:32,360
 There's basically nothing in here.
+里面啥都没有
 
 54
 00:02:32,360 --> 00:02:34,640
 There's no steering wheel, no dashboard.
+没有方向盘 没有仪表盘
 
 55
 00:02:34,640 --> 00:02:36,170
 This car is super basic.
+内设超级基础
 
 56
 00:02:36,170 --> 00:02:40,700
 There is no AC, but there
 is an emergency stop button.
+没有空调 但是有一个紧急按钮
 
 57
 00:02:40,700 --> 00:02:41,533
@@ -253,111 +304,128 @@ is an emergency stop button.
 58
 00:02:41,533 --> 00:02:43,260
 That's my favorite button in the car.
+这车上我最喜欢这个按钮
 
 59
 00:02:43,260 --> 00:02:45,370
 It reminds me of elevators.
+我想起有关电梯的一些事
 
 60
 00:02:45,370 --> 00:02:47,410
-One of the important
-measures that they had to put
+One of the important measures that they had to put
+电梯里最重要的一个东西
 
 61
 00:02:47,410 --> 00:02:51,150
-in automatic elevators
-was a big red stop button.
+in automatic elevators was a big red stop button.
+是那个大大红红的停止按钮
 
 62
 00:02:51,150 --> 00:02:53,610
 Did you know that before the 1940s,
+在 1940 年以前
 
 63
 00:02:53,610 --> 00:02:56,710
 almost all elevators had drivers in them?
+几乎每辆电梯都有个司机
 
 64
 00:02:56,710 --> 00:03:00,370
-And when people started putting
-in driverless elevators,
+And when people started putting in driverless elevators,
+然后当不用司机的电梯普及起来的时候
 
 65
 00:03:00,370 --> 00:03:02,160
 well, the public was very concerned,
+公众十分地担心
 
 66
 00:03:02,160 --> 00:03:03,910
-and they didn't wanna
-ride in those elevators.
+and they didn't wanna ride in those elevators.
+他们不想坐这种电梯
 
 67
 00:03:03,910 --> 00:03:04,997
 There was one guy who was like,
+甚至还有个人说
 
 68
 00:03:04,997 --> 00:03:07,930
-"I don't care if I have to
-walk up 12 flights of stairs
+"I don't care if I have to walk up 12 flights of stairs
+我走十二层楼梯
 
 69
 00:03:07,930 --> 00:03:08,980
-for the rest of my life.
+for the rest of my life. I'm not taking that elevator."
+都不要坐你的自动电梯（真香
 
 70
 00:03:08,980 --> 00:03:10,560
-I'm not taking that elevator."
 
 71
 00:03:10,560 --> 00:03:11,550
 And adoption was slow.
+这自动电梯普及起来确实花了一段时间
 
 72
 00:03:11,550 --> 00:03:12,840
 I mean, they tried to advertise
+这些人努力地让公众
 
 73
 00:03:12,840 --> 00:03:15,410
 to help people understand
 that it was in fact safe,
+去相信这种自动电梯很安全
 
 74
 00:03:15,410 --> 00:03:18,810
 but, ultimately, there was
 an elevator drivers strike
+最后是纽约的一场
 
 75
 00:03:18,810 --> 00:03:21,800
 in New York City, and that
 really annoyed people,
+电梯司机罢工彻底惹恼了人们
 
 76
 00:03:21,800 --> 00:03:25,170
 and it helped the adoption
 of automated elevators.
+使得人们习惯于使用自动电梯
 
 77
 00:03:25,170 --> 00:03:27,370
 If you found a driver
 in an elevator today,
+当你今天看到电梯里有个司机
 
 78
 00:03:27,370 --> 00:03:30,050
 you would wonder, "Why are they there?"
+你肯定很迷惑为啥这有个人操作电梯
 
 79
 00:03:30,050 --> 00:03:32,660
 Now you might think an
 elevator is just so simple,
+你可能会说 电梯没司机多简单啊
 
 80
 00:03:32,660 --> 00:03:35,390
 I mean, it is effectively
 one dimensional motion,
+它不就一一维的运动
 
 81
 00:03:35,390 --> 00:03:40,361
 but airplanes are also flown
 extensively by computers.
+但是飞机的大部分飞行工作也是计算机承担的
 
 82
 00:03:40,361 --> 00:03:42,110
@@ -365,142 +433,171 @@ extensively by computers.
 
 83
 00:03:42,110 --> 00:03:44,550
-I saw this particular landing
+I saw this particular landing where a plane is coming in into Vienna,
+有这么一次在维也纳的降落
 
 84
 00:03:44,550 --> 00:03:47,100
-where a plane is coming in into Vienna,
 
 85
 00:03:47,100 --> 00:03:48,590
 and it's just so foggy
+整片天雾蒙蒙的
 
 86
 00:03:48,590 --> 00:03:50,370
 that the pilots can see almost nothing.
+飞行员能见度很低
 
 87
 00:03:50,370 --> 00:03:53,210
 I mean, this is the view from the cockpit,
+这是驾驶舱看到的样子
 
 88
 00:03:53,210 --> 00:03:55,680
 and yet, they make a perfect,
+但是他们完成了一次
 
 89
 00:03:55,680 --> 00:03:58,340
 a textbook landing right on target.
+正中目标的教科书级别降落
 
 90
 00:03:58,340 --> 00:04:00,360
 So how do they do it?
+这是咋做的？
 
 91
 00:04:00,360 --> 00:04:03,100
 The answer is the pilots didn't do it.
+他们根本没做！
 
 92
 00:04:03,100 --> 00:04:05,820
-It was a CAT II autoland procedure.
+It was a CAT III autoland procedure.
+这是一个三类自动降落流程
 
 93
 00:04:05,820 --> 00:04:09,990
 The plane just came in and
 landed itself essentially.
+飞机自己进场降落
 
 94
 00:04:09,990 --> 00:04:11,840
 Now, of course, the pilots are important
+当然 飞行员要观察各个仪表和状态
 
 95
 00:04:11,840 --> 00:04:15,480
-and they're monitoring all of
-the instruments and controls,
+and they're monitoring all of the instruments and controls,
+也很重要
 
 96
 00:04:15,480 --> 00:04:17,010
 but it's actually the plane
+但是这个完美降落
 
 97
 00:04:17,010 --> 00:04:20,400
 and its computer getting the
 plane to land appropriately.
+是飞机和机上计算机自己完成的
 
 98
 00:04:20,400 --> 00:04:24,230
 I was surprised to learn that
 humans are much more likely
+我没想到的是 人们在晴朗的天气
 
 99
 00:04:24,230 --> 00:04:28,050
 to take manual control
 and land on sunny days,
+更习惯于手动操作降落
 
 100
 00:04:28,050 --> 00:04:32,600
 like July 6th, 2013, when
 Asiana Airlines flight 214
+2013 年 7 月 6 日，韩亚航空 214
+[BV11s411R7rt / av3613944]
 
 101
 00:04:32,600 --> 00:04:35,420
 was on final approach to San Francisco.
+正在降落三藩机场
 
 102
 00:04:35,420 --> 00:04:37,620
 Attempting to manually land the plane,
+在手动降落的过程中
 
 103
 00:04:37,620 --> 00:04:40,960
 the pilot accidentally
 left the throttle at zero,
+飞行员不小心把节流阀打到零了
 
 104
 00:04:40,960 --> 00:04:42,210
 and by the time they realized
+当他们意识到
 
 105
 00:04:42,210 --> 00:04:45,243
 and tried to abort the
 landing, it was too late.
+想要取消降落时 已经太晚了
 
 106
 00:04:46,500 --> 00:04:51,070
 The plane crashed into the
 runway seawall and split in two.
+飞机一头撞进跑道海堤 一分为二
 
 107
 00:04:51,070 --> 00:04:54,483
 Three people died in the
 aftermath of this accident.
+三人在这场灾难中丧生
 
 108
 00:04:55,600 --> 00:04:57,680
 I think the counterintuitive thing
+我认为有一个反直觉的东西是
 
 109
 00:04:57,680 --> 00:05:00,540
 is that we expect the humans to be better,
+我们认为人类会表现得更好
 
 110
 00:05:00,540 --> 00:05:02,430
 particularly in tough situations,
+特别是在复杂的情况下
 
 111
 00:05:02,430 --> 00:05:05,320
-but when it comes to
-airplanes, if it's bad weather,
+but when it comes to airplanes, if it's bad weather,
+但是从飞机这里看
 
 112
 00:05:05,320 --> 00:05:08,633
 you actually want the plane flying itself.
+如果天气差的话 你反倒想让它自己飞
 
 113
 00:05:09,840 --> 00:05:11,990
 So the obvious next question is,
+那么很显然你接下来就会问
 
 114
 00:05:11,990 --> 00:05:13,535
 would you want the same thing for cars?
+同样的事会发生在汽车上吗
 
 115
 00:05:13,535 --> 00:05:15,330
@@ -510,91 +607,107 @@ would you want the same thing for cars?
 00:05:15,330 --> 00:05:17,570
 There are all these
 different levels of autonomy,
+汽车自动化被分为很多级别
 
 117
 00:05:17,570 --> 00:05:20,780
 and everything up to four
 requires a human driver
+四级以下的自动化水平
 
 118
 00:05:20,780 --> 00:05:24,370
 to be responsible and have
 the wheel at all times.
+需要驾驶员持续观察和操作
 
 119
 00:05:24,370 --> 00:05:27,110
 In the early days of the Google
 self-driving car project,
+谷歌早期的自动驾驶汽车
 
 120
 00:05:27,110 --> 00:05:29,510
 they had a vehicle that
 was not yet level four,
+并没有达到四级
 
 121
 00:05:29,510 --> 00:05:31,590
 so it still required a human driver.
+因此需要驾驶员
 
 122
 00:05:31,590 --> 00:05:34,280
 They let Google employees borrow the cars,
+谷歌的员工可以借这些车来开
 
 123
 00:05:34,280 --> 00:05:36,830
-but they still had to be
-in control of the wheel.
+but they still had to be in control of the wheel.
+但是要手动操作
 
 124
 00:05:36,830 --> 00:05:38,340
 And the volunteers were informed
+志愿者们也被告知
 
 125
 00:05:38,340 --> 00:05:41,210
 that they were responsible
 for the car at all times
+要时刻关注着车
 
 126
 00:05:41,210 --> 00:05:42,890
-and that they would be
-constantly recorded,
+and that they would be constantly recorded,
+并且他们在车内时
 
 127
 00:05:42,890 --> 00:05:45,630
-like video recorded, while
-they were in the car.
+like video recorded, while they were in the car.
+将会被持续录像
 
 128
 00:05:45,630 --> 00:05:47,810
 But still, within a short period of time,
+但是没过多久
 
 129
 00:05:47,810 --> 00:05:50,240
 the engineers observed
 drivers rummaging around
+这些工程师就注意到驾驶员
 
 130
 00:05:50,240 --> 00:05:53,900
 in their bags or checking
 phones, putting on makeup,
+在包里翻翻找找  刷手机  化妆
 
 131
 00:05:53,900 --> 00:05:57,480
 or even sleeping in the driver's seat.
+甚至睡大觉zzz
 
 132
 00:05:57,480 --> 00:06:00,540
 All these drivers were trusting
 the technology too much,
+他们对这个科技过度信任
 
 133
 00:06:00,540 --> 00:06:03,120
 which makes almost fully
 autonomous vehicles
+使得这些近乎全自动驾驶的汽车
 
 134
 00:06:03,120 --> 00:06:06,360
 potentially more dangerous
 than regular cars,
+比普通的车要更危险
 
 135
 00:06:06,360 --> 00:06:07,910
