@@ -693,14 +693,17 @@ in the four, two, one loop or not.
 00:07:04,800 --> 00:07:07,970
 For that, we need a
 different sort of analysis.
+为了论证它  我们需要一种不同的分析方法
 
 160
 00:07:07,970 --> 00:07:08,820
 Now, at first glance,
+乍一看  当使用 3x+1 时
 
 161
 00:07:08,820 --> 00:07:11,660
 it seems strange that when you apply 3x+1,
+所有数字都以一结束是很奇怪的
 
 162
 00:07:11,660 --> 00:07:13,930
@@ -710,6 +713,7 @@ all numbers should end up at one.
 00:07:13,930 --> 00:07:16,570
 I mean, consider that
 there are the same number
+奇数和偶数的是一样多的
 
 164
 00:07:16,570 --> 00:07:18,810
@@ -718,15 +722,18 @@ of odd and even numbers,
 165
 00:07:18,810 --> 00:07:21,330
 but odd numbers are more than tripled,
+但是奇数不止翻了两倍
 
 166
 00:07:21,330 --> 00:07:24,400
 while even numbers are only cut in half.
+而偶数只减少了一半
 
 167
 00:07:24,400 --> 00:07:27,000
 Therefore, it seems like
 every sequence on average
+因此  平均来看  每个数列会增大  而非减小
 
 168
 00:07:27,000 --> 00:07:29,400
@@ -735,170 +742,208 @@ should grow, not shrink.
 169
 00:07:29,400 --> 00:07:30,670
 But here's the catch.
+但这就是问题所在
 
 170
 00:07:30,670 --> 00:07:32,760
 Every time you multiply
 an odd number by three
+每当你将一个奇数乘以三
 
 171
 00:07:32,760 --> 00:07:36,760
 and then add one, it will
 always become an even number,
+然后加一  它一定会变成一个偶数
 
 172
 00:07:36,760 --> 00:07:40,000
 and that means the next
 step is to divide by two.
+这意味着下一步是将它除以二
 
 173
 00:07:40,000 --> 00:07:43,550
 So odd numbers are not
 actually tripled by 3x+1.
+所以  奇数实际上不会因为 3x+1 变成原来的三倍
 
 174
 00:07:43,550 --> 00:07:46,690
 They're increased by a factor
 of about three over two.
+它们会增长到原来的二分之三
 
 175
 00:07:46,690 --> 00:07:47,960
 I'm neglecting the plus one
+我忽略了加一
 
 176
 00:07:47,960 --> 00:07:51,170
 because it's insignificant
 for large numbers.
+因为它对于大数是微不足道的
 
 177
 00:07:51,170 --> 00:07:53,820
 And 3/2 is actually the most
+而且 3/2 是
 
 178
 00:07:53,820 --> 00:07:57,160
 an odd number can grow in one step.
+一个奇数在一步之内能增长的最大值
 
 179
 00:07:57,160 --> 00:07:59,690
 Think of the path from one
 odd number in a sequence
+考虑在数列中
 
 180
 00:07:59,690 --> 00:08:01,430
 to the next odd number.
+一个奇数到下一个奇数的路径
 
 181
 00:08:01,430 --> 00:08:03,420
 After multiplying by three and adding one,
+在乘三加一之后
 
 182
 00:08:03,420 --> 00:08:05,290
 you have an even number.
+你得到一个偶数
 
 183
 00:08:05,290 --> 00:08:06,760
 And 50% of the time,
+有 50% 的可能
 
 184
 00:08:06,760 --> 00:08:10,220
 dividing by two brings
 you back to an odd number.
+除以 2 把你带回一个奇数
 
 185
 00:08:10,220 --> 00:08:12,890
 But a quarter of the time,
 you can divide by four
+但有 1/4 的可能  在得到下一个奇数之前
 
 186
 00:08:12,890 --> 00:08:14,640
 before you get to the next odd number.
+你可以除以 4
 
 187
 00:08:14,640 --> 00:08:16,540
 So, for a quarter of numbers,
+所以对于 1/4 的数
 
 188
 00:08:16,540 --> 00:08:18,000
 the next one in the sequence
+数列中的下一个数
 
 189
 00:08:18,000 --> 00:08:21,210
 will be 3/4 of its initial value.
+会是它的 3/4
 
 190
 00:08:21,210 --> 00:08:23,390
 An 1/8 the time, you can divide by eight
+有 1/8 的可能  在得到下一个奇数之前
 
 191
 00:08:23,390 --> 00:08:25,140
 before getting to the next odd number,
+你可以除以 8
 
 192
 00:08:25,140 --> 00:08:29,270
 and 1/16 of the time, you
 can divide by 16 and so on.
+有 1/16 的可能  你可以除以 16  依次类推
 
 193
 00:08:29,270 --> 00:08:31,420
 If you take the geometric mean,
+如果你计算几何平均数
 
 194
 00:08:31,420 --> 00:08:34,640
 you find, on average, to
 get from one odd number
+你会发现  平均来看  从一个奇数到下一个
 
 195
 00:08:34,640 --> 00:08:38,100
 to the next one, you
 multiply by three over four,
+你会乘以 3/4
 
 196
 00:08:38,100 --> 00:08:39,920
 which is less than one.
+这比 1 要小
 
 197
 00:08:39,920 --> 00:08:41,610
 So statistically speaking,
+所以从统计学上讲
 
 198
 00:08:41,610 --> 00:08:45,920
 3x+1 sequences are more
 likely to shrink than grow.
+3x+1 数列更可能收缩  而非增长
 
 199
 00:08:45,920 --> 00:08:48,350
 Take 341 for example,
+用 341 做例子
 
 200
 00:08:48,350 --> 00:08:52,250
 multiply by three and
 add one, you get 1,024,
+乘三加一  得到 1024
 
 201
 00:08:52,250 --> 00:08:54,340
 which you can divide by two
+你可以把它除以二
 
 202
 00:08:54,340 --> 00:08:56,900
 and then divide by two again, and again,
+再除以二  再除以二
 
 203
 00:08:56,900 --> 00:08:58,420
 and again, and again,
+再除以二  再除以二
 
 204
 00:08:58,420 --> 00:09:01,743
 10 times in total until
 you're down to one.
+得到一之前一共可以除 10 次
 
 205
 00:09:02,620 --> 00:09:06,060
 One way to visualize these
 paths of numbers in 3x+1
+一种可视化 3x+1 中数字的路径的方法
 
 206
 00:09:06,060 --> 00:09:07,930
 is simply to show how each number
+是看它们是如何和数列中的下一个数相连的
 
 207
 00:09:07,930 --> 00:09:10,360
@@ -907,66 +952,81 @@ connects to the next one in its sequence.
 208
 00:09:10,360 --> 00:09:13,150
 This is called a directed graph.
+这被称为有向图
 
 209
 00:09:13,150 --> 00:09:16,430
 It looks like a tree or a
 series of little streams
+它看起来像一棵树
 
 210
 00:09:16,430 --> 00:09:18,170
 that flow into each other.
+或者一系列相互流入的溪流
 
 211
 00:09:18,170 --> 00:09:19,740
 If the conjecture is true,
+如果这个猜想成立
 
 212
 00:09:19,740 --> 00:09:22,240
 it means that every single number
+意味着每个数字
 
 213
 00:09:22,240 --> 00:09:24,150
 is connected to this graph.
+都连接到这个图里
 
 214
 00:09:24,150 --> 00:09:27,540
 Every tiny stream all
 the way out to infinity
+从一到无穷的每个小溪流
 
 215
 00:09:27,540 --> 00:09:32,540
 eventually flows into the
 massive river of four, two, one.
+最终都会流向 4 2 1 的大河
 
 216
 00:09:34,000 --> 00:09:36,900
 Some mathematicians have
 modified this visualization
+有些数学家在每个数字处旋转
 
 217
 00:09:36,900 --> 00:09:39,560
 by rotating the graph at each number;
+来修改这个可视化
 
 218
 00:09:39,560 --> 00:09:41,400
 anticlockwise if it's an odd number,
+如果是奇数  就逆时针转
 
 219
 00:09:41,400 --> 00:09:43,810
 and clockwise if it's even.
+如果是偶数  就顺时针转
 
 220
 00:09:43,810 --> 00:09:46,110
 And then you end up with a structure
+最后你会得到一个
 
 221
 00:09:46,110 --> 00:09:49,860
 that looks like a coral or seaweed.
+看起来像珊瑚或者海草的结构
 
 222
 00:09:49,860 --> 00:09:51,930
 And by adjusting the degree of rotation
+通过改变奇数和偶数旋转的角度
 
 223
 00:09:51,930 --> 00:09:53,460
@@ -976,20 +1036,24 @@ for odd and even numbers,
 00:09:53,460 --> 00:09:57,543
 you can create these beautiful,
 organic-looking shapes.
+你可以创造出这些美丽的有机形状
 
 225
 00:09:58,900 --> 00:10:01,890
 Now, there are two ways the
 conjecture could be false.
+现在这个猜想可能以两种方式被推翻
 
 226
 00:10:01,890 --> 00:10:04,320
 There could be a number
 somewhere, some seed,
+可能某处有一个数列开头的种子
 
 227
 00:10:04,320 --> 00:10:06,260
 that starts a sequence of numbers
+使数列增长到无穷大
 
 228
 00:10:06,260 --> 00:10:08,850
@@ -998,10 +1062,12 @@ that grows to infinity.
 229
 00:10:08,850 --> 00:10:10,260
 For whatever reason,
+出于某种原因
 
 230
 00:10:10,260 --> 00:10:12,960
 it doesn't obey the same numerical gravity
+它并不遵循和其他数字一样的重力规律
 
 231
 00:10:12,960 --> 00:10:14,710
@@ -1011,70 +1077,86 @@ as all of the other numbers.
 00:10:14,710 --> 00:10:18,050
 Another possibility is there
 exists a sequence of numbers
+另一种可能是存在一系列数
 
 233
 00:10:18,050 --> 00:10:20,530
 that forms a closed loop.
+形成了一个环
 
 234
 00:10:20,530 --> 00:10:22,000
 All the numbers in this loop
+这个环中的所有数字
 
 235
 00:10:22,000 --> 00:10:25,230
 would be unconnected to the main graph.
+都和主图不联通
 
 236
 00:10:25,230 --> 00:10:26,910
 But thus far, no loop
+但是目前为止  还没有找到
 
 237
 00:10:26,910 --> 00:10:30,530
 or sequence that shoots off
 to infinity has been found.
+一个环或者一个能增长到无穷大的数列
 
 238
 00:10:30,530 --> 00:10:31,950
 And not for lack of trying,
+并不是因为缺乏尝试
 
 239
 00:10:31,950 --> 00:10:34,570
 mathematicians have tested by brute force
+数学家已经暴力测试了
 
 240
 00:10:34,570 --> 00:10:37,160
 every single number up to two to the 68.
+不超过 2 的 68 次方的每一个数
 
 241
 00:10:37,160 --> 00:10:42,160
 That's 295,147,905,179,352,825,856
 numbers.
+295,147,905,179,352,825,856 个数
 
 242
 00:10:49,060 --> 00:10:52,650
 We know, for certain, that every
 single one of those numbers
+我们知道  这些中的每一个数
 
 243
 00:10:52,650 --> 00:10:55,310
 eventually comes back down to one.
+最终都回到了一
 
 244
 00:10:55,310 --> 00:10:58,640
 We have tested nearly
 300 quintillion numbers,
+我们测试了接近 30 万亿个数
 
 245
 00:10:58,640 --> 00:11:01,560
 and none of them disproves the conjecture.
+没有一个推翻了这个猜想
 
 246
 00:11:01,560 --> 00:11:03,460
 In fact, given this information,
+事实上  通过这个信息
 
 247
 00:11:03,460 --> 00:11:05,530
 mathematicians calculate that any loop
+数学家计算出了 4 2 1 以外的循环
 
 248
 00:11:05,530 --> 00:11:06,940
@@ -1083,150 +1165,184 @@ other than four, two, one
 249
 00:11:06,940 --> 00:11:11,530
 must be at least 186 billion numbers long.
+应该至少有 1860 亿个数长
 
 250
 00:11:11,530 --> 00:11:14,810
 So, it seems pretty likely
 that the conjecture is true,
+所以  看起来这个猜想很可能是成立的
 
 251
 00:11:14,810 --> 00:11:16,950
 but this doesn't prove it.
+但这并不能证明它
 
 252
 00:11:16,950 --> 00:11:19,480
 One way mathematicians
 have attempted to prove it
+数学家尝试证明它的一种方法
 
 253
 00:11:19,480 --> 00:11:21,720
 is by making a scatterplot
+是绘制散点图
 
 254
 00:11:21,720 --> 00:11:23,910
 with all the seed numbers on the x-axis
+种子在 X 轴上
 
 255
 00:11:23,910 --> 00:11:27,100
 and a number from each seeds
 sequence on the y-axis.
+从种子产生的数在 Y 轴上
 
 256
 00:11:27,100 --> 00:11:30,890
 Now, if you can show that
 in every 3x+1 sequence
+现在  如果你能证明每一个 3x+1 数列中
 
 257
 00:11:30,890 --> 00:11:34,200
 there is a number that is
 smaller than the original seed,
+都有一个数比种子小
 
 258
 00:11:34,200 --> 00:11:36,950
 well then you have proven
 the Collatz conjecture,
+你就证明了考拉兹猜想
 
 259
 00:11:36,950 --> 00:11:38,710
 because whatever number you pick,
+因为无论你选择什么数
 
 260
 00:11:38,710 --> 00:11:41,290
 you know it will at
 some point get smaller,
+你都知道它会在某处变小
 
 261
 00:11:41,290 --> 00:11:44,600
 and that smaller number as
 a seed also gets smaller,
+得到的数会继续变小
 
 262
 00:11:44,600 --> 00:11:46,830
 and so on down to one,
+一直变小到 1
 
 263
 00:11:46,830 --> 00:11:49,700
 meaning the only way any sequence can end
+意味着所有数列
 
 264
 00:11:49,700 --> 00:11:53,040
 is in the four, two, one loop.
+都会以 4 2 1 循环结尾
 
 265
 00:11:53,040 --> 00:11:56,120
 This has not yet been shown.
+这还没有被证明
 
 266
 00:11:56,120 --> 00:12:00,200
 But, in 1976, Riho Terras was able to show
+但是  在 1976 年  Riho Terras 证明了
 
 267
 00:12:00,200 --> 00:12:02,920
 that almost all Collatz sequences
+“几乎所有”考拉兹数列
 
 268
 00:12:02,920 --> 00:12:05,540
 reach a point below their initial value.
+都达到了比它初始值更小的数
 
 269
 00:12:05,540 --> 00:12:07,890
 In 1979, this limit was reduced
+1979 年  对于“几乎所有数”
 
 270
 00:12:07,890 --> 00:12:09,150
 with almost all numbers
+这个上限减小到了
 
 271
 00:12:09,150 --> 00:12:12,370
 going to less than X
 to the power of 0.869.
+小于 X 的 0.869 次方
 
 272
 00:12:12,370 --> 00:12:14,080
 And then in 1994,
+1994 年
 
 273
 00:12:14,080 --> 00:12:15,260
 it was further lowered
+上限进一步减小到了
 
 274
 00:12:15,260 --> 00:12:19,420
 to less than X to the power of 0.7925.
+X 的 0.7925 次方
 
 275
 00:12:19,420 --> 00:12:21,950
 In this case, the term almost all numbers
+这种情况下  “几乎所有数”
 
 276
 00:12:21,950 --> 00:12:24,720
 has a technical mathematical definition.
+有一个技术上的数学定义
 
 277
 00:12:24,720 --> 00:12:26,970
 It means that as the
 numbers you're looking at
+意味着随着你要研究的数
 
 278
 00:12:26,970 --> 00:12:28,770
 go to infinity,
+增大到无穷
 
 279
 00:12:28,770 --> 00:12:32,533
 the fraction that end up
 under the curve goes to one.
+这个比例最终会在一的曲线之下 // REVIEW: ???
 
 280
 00:12:33,760 --> 00:12:35,180
 Then in 2019,
+2019 年
 
 281
 00:12:35,180 --> 00:12:37,260
 one of the world's greatest
 living mathematicians,
+世界上活着的最伟大的数学家之一
 
 282
 00:12:37,260 --> 00:12:40,810
 Terry Tao, was able to show 3x+1 obeys
+Terry Tao  证明了 3x+1 满足更严格的条件
 
 283
 00:12:40,810 --> 00:12:43,300
@@ -1236,134 +1352,163 @@ even stricter criteria.
 00:12:43,300 --> 00:12:46,900
 He showed almost all
 numbers will end up smaller
+它证明了几乎所有数
 
 285
 00:12:46,900 --> 00:12:49,810
 than any arbitrary function f of x
+都会比对 x 的任意函数 f 小
 
 286
 00:12:49,810 --> 00:12:52,130
 so long as that function goes to infinity
+只要随着 x 增长到无穷
 
 287
 00:12:52,130 --> 00:12:54,220
 as x goes to infinity.
+这个函数也增长到无穷
 
 288
 00:12:54,220 --> 00:12:57,500
 But the function can rise
 as slowly as you like.
+尽管这个函数可以增长得非常慢
 
 289
 00:12:57,500 --> 00:13:02,500
 So, log x is an example, or
 log, log, log x works too,
+所以  log x 是一个例子  log log log x 也是一个例子
 
 290
 00:13:02,530 --> 00:13:04,960
 or log, log, log, log x.
+或者 log log log log x 也可以
 
 291
 00:13:04,960 --> 00:13:07,540
 What this means is,
 for almost all numbers,
+意思是对几乎所有数
 
 292
 00:13:07,540 --> 00:13:11,660
 you can guarantee that there
 is an arbitrarily small number
+你可以保证有一个比它任意小的数
 
 293
 00:13:11,660 --> 00:13:13,990
 somewhere in its sequence.
+存在在数列某处
 
 294
 00:13:13,990 --> 00:13:16,867
 In a public talk he gave
 in 2020, Terry Tao said,
+2020 年  Terry Tao 在他的一个公开演讲中说到
 
 295
 00:13:16,867 --> 00:13:18,810
 "This is about as close as one can get
+“这是一个人最能接近考拉兹猜想
 
 296
 00:13:18,810 --> 00:13:22,690
 to the Collatz conjecture
 without actually solving it."
+而不真正解决它的方法了”
 
 297
 00:13:22,690 --> 00:13:27,320
 This is an impressive result,
 but it's still not a proof.
+这是一个令人赞叹的结果  但依然不是证明
 
 298
 00:13:27,320 --> 00:13:30,440
 So why can't we prove the conjecture true?
+所以我们为什么不能证明猜想成立呢？
 
 299
 00:13:30,440 --> 00:13:33,010
 Could it be because it's not true?
+因为它本身不成立吗？
 
 300
 00:13:33,010 --> 00:13:34,900
 I mean, everyone is
 trying to prove it true,
+我的意思是  每个人都在试图证明它
 
 301
 00:13:34,900 --> 00:13:38,540
 which means almost no one is
 looking for counterexamples.
+没有人在找反例
 
 302
 00:13:38,540 --> 00:13:40,970
 - It had happened to
 me just two years ago,
+我在两年前经历到了
 
 303
 00:13:40,970 --> 00:13:42,700
 where there was something
 I was trying to prove,
+那时我正在我证明一个
 
 304
 00:13:42,700 --> 00:13:45,643
 that I was trying for
 three years to prove,
+试图证明了三年的东西
 
 305
 00:13:46,520 --> 00:13:48,940
 and I couldn't get it to work.
+却不能证明它
 
 306
 00:13:48,940 --> 00:13:50,370
 And then I found a counterexample,
+然后我发现了一个反例
 
 307
 00:13:50,370 --> 00:13:52,070
 and then I realized what
 the correct statement
+然后我意识到了
 
 308
 00:13:52,070 --> 00:13:52,903
 should have been.
+正确的命题应该是什么样的
 
 309
 00:13:52,903 --> 00:13:55,280
 And then a month later, I
 proved the correct statement.
+一个月之后  我证明了正确的命题
 
 310
 00:13:55,280 --> 00:13:57,130
 Maybe we should be spending more energy
+或许我们应该把更多精力放在
 
 311
 00:13:57,130 --> 00:13:59,900
 looking for counterexamples
 than we're currently spending.
+我们正在研究的东西的反例上
 
 312
 00:13:59,900 --> 00:14:01,590
 - [Narrator] I mean,
 remember how the number 27
+还记得 27 是如何增长到 9,232 的吗？
 
 313
 00:14:01,590 --> 00:14:05,410
@@ -1373,57 +1518,69 @@ grows all the way to 9,232?
 00:14:05,410 --> 00:14:09,030
 Here is a plot of seed
 numbers up to 10,000,
+这是一个图  其中的种子最大到 10,000
 
 315
 00:14:09,030 --> 00:14:11,730
 with the largest number
 reached for each seed
+每个种子能达到的最大数
 
 316
 00:14:11,730 --> 00:14:13,770
 plotted on the y-axis.
+标注在了 Y 轴上
 
 317
 00:14:13,770 --> 00:14:16,060
 The y-axis stops at a 100,000,
+Y 轴停止在 100,000
 
 318
 00:14:16,060 --> 00:14:19,210
 but not all numbers can
 be shown at this scale.
+但并不是所有数都能在这个尺度上显示
 
 319
 00:14:19,210 --> 00:14:24,210
 The seed 9,663, for example,
 climbs as high as 27 million.
+比方说  种子 9663 最高爬到了 2700 万
 
 320
 00:14:26,090 --> 00:14:27,710
 And as yet, no one has proven
+目前为止  没有人证明
 
 321
 00:14:27,710 --> 00:14:31,320
 why a number couldn't just
 shoot off to infinity.
+一个数字不能增长到无穷大
 
 322
 00:14:31,320 --> 00:14:34,483
 And it would take only one
 to disprove the conjecture,
+要推翻这个猜想只需要一个反例
 
 323
 00:14:35,460 --> 00:14:38,260
 or some set of numbers
 could be part of a loop
+或者存在某些数是一个循环的一部分
 
 324
 00:14:38,260 --> 00:14:39,980
 not connected to the main graph.
+而不连接到主图里
 
 325
 00:14:39,980 --> 00:14:44,290
 As far as we know, there is
 only one loop: four, two, one.
+尽管据我们所知  只有一个循环：4 2 1
 
 326
 00:14:44,290 --> 00:14:45,960
