@@ -2,215 +2,215 @@
 00:00:00,060 --> 00:00:03,630
 - This is the most dangerous
 problem in mathematics,
-
+这是数学界最危险的课题
 2
 00:00:03,630 --> 00:00:06,060
 one that young mathematicians are warned
-
+年轻的数学家被警告说
 3
 00:00:06,060 --> 00:00:08,050
 not to waste their time on.
-
+不要在这上面浪费时间
 4
 00:00:08,050 --> 00:00:09,520
 It's a simple conjecture
-
+这个猜想十分简单
 5
 00:00:09,520 --> 00:00:11,700
 that not even the world's
 best mathematicians
-
+但是就连世界上最聪明的数学家
 6
 00:00:11,700 --> 00:00:13,330
 have been able to solve.
-
+也没能证明
 7
 00:00:13,330 --> 00:00:16,167
 Paul Erdos, a famous mathematician, said,
-
+一位知名数学家 Paul Erdos 曾说过
 8
 00:00:16,167 --> 00:00:20,107
 "Mathematics is not yet ripe
 enough for such questions."
-
+数学还没强大到能解决这种问题的程度
 9
 00:00:21,160 --> 00:00:22,950
 Here's how it works.
-
+这个猜想是这样的
 10
 00:00:22,950 --> 00:00:25,290
 Pick a number, any number.
-
+随便选一个数字
 11
 00:00:25,290 --> 00:00:26,230
 Seven?
-
+好
 12
 00:00:26,230 --> 00:00:27,390
 Good choice.
-
+就用 7 来说吧
 13
 00:00:27,390 --> 00:00:29,640
 Okay, we're gonna apply two rules.
-
+游戏规则有两条
 14
 00:00:29,640 --> 00:00:33,210
 If the number is odd, we
 multiply by three and add one.
-
+如果这是个奇数 把它乘三加一
 15
 00:00:33,210 --> 00:00:37,310
 So three times seven
 is 21, plus one is 22.
-
+那 7*3+1=22
 16
 00:00:37,310 --> 00:00:40,390
 If the number is even, we divide by two.
-
+如果是个偶数 那就除二
 17
 00:00:40,390 --> 00:00:43,510
 So 22 divided by two is 11.
-
+那 22/2=11
 18
 00:00:43,510 --> 00:00:46,220
 Now, we keep applying these two rules.
-
+不断重复这两条规则
 19
 00:00:46,220 --> 00:00:50,750
 11 is odd, so we multiply
 by 3, 33, and add 1, 34.
-
+11 是奇数，乘三得 33，加一 34
 20
 00:00:50,750 --> 00:00:54,350
 Even, divide by two, 17, odd.
-
+得到一个偶数，除二得 17
 21
 00:00:54,350 --> 00:00:58,000
 Multiply by 3, 51, add 1, 52, even.
-
+得到一个奇数，乘以三加一，52，是个偶数
 22
 00:00:58,000 --> 00:01:00,860
 Divide by two, 26, still even.
-
+除二，26，还是偶数
 23
 00:01:00,860 --> 00:01:03,760
 Divide by two, 13, odd.
-
+除二，13，是个奇数
 24
 00:01:03,760 --> 00:01:06,970
 So we multiply by 3, 39,
 add one, and that's 40,
-
+那就乘三得 39，加一，得 40
 25
 00:01:06,970 --> 00:01:09,700
 which is even, so we divide by two, 20,
-
+偶数，除二，得 20
 26
 00:01:09,700 --> 00:01:13,870
 divide by two, 10,
 divide by two, five, odd.
-
+再除 2，得 10，再除，得 5，是个奇数
 27
 00:01:13,870 --> 00:01:17,100
 Multiply by three, 15, add one, 16,
-
+乘三，得 15，加一，得 16
 28
 00:01:17,100 --> 00:01:22,100
 divide by two that's eight,
 and then four, two, and one.
-
+除二除二再除二再再除，分别得到八四二还有一
 29
 00:01:22,300 --> 00:01:25,220
 Now, one is odd, so we
 multiply by three and add one,
-
+一是奇数，乘三加一
 30
 00:01:25,220 --> 00:01:26,510
 which equals four.
-
+得 4
 31
 00:01:26,510 --> 00:01:29,290
 But four goes to two, goes to one,
-
+但是 4 会变成 2 再变成 1
 32
 00:01:29,290 --> 00:01:33,190
 so we're in a loop, and
 the lowest number is one.
-
+打环了，所以能得到最小的数是 1
 33
 00:01:33,190 --> 00:01:35,280
 Now, the conjecture is this:
-
+这个猜想是这样的
 34
 00:01:35,280 --> 00:01:38,350
 every positive integer,
 if you apply these rules,
-
+对于任意正整数重复这两条规则
 35
 00:01:38,350 --> 00:01:42,770
 will eventually end up in
 the four, two, one loop.
-
+最终会在 4, 2, 1 这三个数上打环
 36
 00:01:42,770 --> 00:01:45,290
 This is commonly called
 the Collatz conjecture
-
+这就是考拉兹猜想
 37
 00:01:45,290 --> 00:01:47,470
 after German mathematician,
 Luther Collatz,
-
+得名于或许是在 19 世纪 30 年代
 38
 00:01:47,470 --> 00:01:49,930
 who may have come up with it in the 1930s.
-
+提出这个猜想的德国数学家 Luther Coalltz
 39
 00:01:49,930 --> 00:01:53,310
 But the problem has many
 origin stories and many names.
-
+但是这个猜想有着许多名称和来历
 40
 00:01:53,310 --> 00:01:55,470
 It's also known as the Ulam conjecture,
-
+它又被称作乌拉姆猜想
 41
 00:01:55,470 --> 00:01:57,790
 Kakutani's problem, Thwaites conjecture,
-
+角谷猜想、Thwaites 猜想 #REVIEW 找不到中文名
 42
 00:01:57,790 --> 00:02:00,270
 Hasse's algorithm, the Syracuse problem,
-
+哈塞猜想（算法？#REVIEW）、雪城问题
 43
 00:02:00,270 --> 00:02:02,620
 and simply 3N+1.
-
+或者 最简单的 3N+1 猜想
 44
 00:02:02,620 --> 00:02:05,550
 Why is 3x+1 so famous?
-
+所以为什么 3X+1 问题如此著名？
 45
 00:02:05,550 --> 00:02:07,010
 - Among professional mathematicians,
-
+对专业的数学家来说
 46
 00:02:07,010 --> 00:02:09,430
 maybe it's not famous but infamous,
-
+不管出不出名
 47
 00:02:09,430 --> 00:02:13,130
 in the sense that if someone
 actually admits in public
-
+如果谁公开说
 48
 00:02:13,130 --> 00:02:14,150
 that they're working on it,
-
+他在证明这个猜想
 49
 00:02:14,150 --> 00:02:15,564
 then there's something wrong with them.
-
+那他有猫病
 50
 00:02:15,564 --> 00:02:17,330
 (laughs)
@@ -219,476 +219,473 @@ then there's something wrong with them.
 00:02:17,330 --> 00:02:20,010
 - [Narrator] The numbers
 you get by applying 3x+1
-
+一个数乘三加一所得到的数
 52
 00:02:20,010 --> 00:02:22,250
 are called hailstone numbers,
-
+被称作冰雹数
 53
 00:02:22,250 --> 00:02:23,985
 because they go up and down
-
+因为它们上上下下
 54
 00:02:23,985 --> 00:02:26,600
 like hailstones in a thundercloud,
-
+就好像雷雨云里的冰雹
 55
 00:02:26,600 --> 00:02:30,060
 but eventually, they all fall down to one,
-
+但是无论如何 他们最终都会变成 1
 56
 00:02:30,060 --> 00:02:32,730
 or at least we think they do.
-
+至少现在看来是这样的
 57
 00:02:32,730 --> 00:02:33,900
 You can think of the numbers
-
+你可以把这些数
 58
 00:02:33,900 --> 00:02:36,880
 as representing the height
 above the ground in meters.
-
+当成海拔高度
 59
 00:02:36,880 --> 00:02:40,850
 So a number like 26 would start
 26 meters above the ground.
-
+那么 26 这个数就表示离地面 26 米
 60
 00:02:40,850 --> 00:02:42,620
 And if you apply 3x+1,
-
+当你对它施以 3x+1
 61
 00:02:42,620 --> 00:02:45,030
 it rises up as high as 40 meters.
-
+它将升到高达 40 米
 62
 00:02:45,030 --> 00:02:48,310
 And, in total, it takes
 10 steps to get to one.
-
+总共十步过后 它降到 1 米
 63
 00:02:48,310 --> 00:02:51,670
 So 10 is called its total stopping time.
-
+因此 我们称它的总停止时间为 10
 64
 00:02:51,670 --> 00:02:54,330
 But take the very next number, 27,
-
+而和它十分接近的数 27
 65
 00:02:54,330 --> 00:02:57,610
 and it bounces around all over the place.
-
+则一路蹦蹦跳跳
 66
 00:02:57,610 --> 00:03:01,327
 In fact, it climbs all
 the way up to 9,232.
-
+最高冲到了 9232 米
 67
 00:03:03,370 --> 00:03:07,430
 As an altitude, that is
 higher than Mount Everest,
-
+把它当作高度的话 这比珠穆朗玛峰还高
 68
 00:03:07,430 --> 00:03:11,420
 before it too falls back to the ground.
-
+在此之后还是掉到了地面上
 69
 00:03:11,420 --> 00:03:16,420
 In total, it takes 111 steps
 for 27 to get down to one
-
+27 这个数总共要 111 步才能掉到 1
 70
 00:03:16,480 --> 00:03:19,660
 and end up in the four, two, one loop.
-
+然后进入 4, 2, 1 的循环
 71
 00:03:19,660 --> 00:03:22,830
 The paths that different
 numbers take vary so widely,
-
+即使是离得这么近的数·
 72
 00:03:22,830 --> 00:03:25,120
 even numbers right next to each other.
-
+它们的路径也相差甚远
 73
 00:03:25,120 --> 00:03:29,140
 So how do you even start to
 make progress on this problem?
-
+所以 你要怎么在这个问题上取得一些进展？
 74
 00:03:29,140 --> 00:03:31,450
 Well, honestly, mathematicians struggled.
-
+事实上，连数学家都难
 75
 00:03:31,450 --> 00:03:32,550
 - People just decided
-
+有些人说
 76
 00:03:32,550 --> 00:03:34,330
 that this was something
 invented by the Soviets
-
+这是苏维埃人整出来 
 77
 00:03:34,330 --> 00:03:37,600
 to slow down U.S. science,
-
+用来阻碍美国科学发展的东西
 78
 00:03:37,600 --> 00:03:39,230
 and it was doing a good job at it
-
+而且它真的做到了
 79
 00:03:39,230 --> 00:03:41,220
 'cause everybody's sitting
 there twiddling their thumbs
-
+一群人坐在那玩手
 80
 00:03:41,220 --> 00:03:44,170
 and making no progress
 on this trivial thing
-
+在这个简单到小学生都会的东西上
 81
 00:03:44,170 --> 00:03:46,080
 that you can tell a school of children.
-
+没有半点进展
 82
 00:03:46,080 --> 00:03:47,210
 - [Narrator] Jeffrey Lagarias
-
+Jeffrey Lagarias 是 3x+1 界
 83
 00:03:47,210 --> 00:03:49,810
 is the world authority on 3x+1.
-
+世界权威级别的人物
 84
 00:03:49,810 --> 00:03:53,440
 - The first time I met him
 I was a senior in college,
-
+我大四的时候在大学里遇见他
 85
 00:03:53,440 --> 00:03:57,690
 and he pulled me aside and
 he said, "Don't do this.
-
+他把我拉到一边，说 快跑
 86
 00:03:57,690 --> 00:03:58,780
 Don't work on this problem.
-
+别整这玩意
 87
 00:03:58,780 --> 00:04:00,940
 If you want to have a career,
-
+如果你想要有饭吃
 88
 00:04:00,940 --> 00:04:04,980
 do not start spending
 time writing about this
-
+就别把时间花在写关于这玩意的东西
 89
 00:04:04,980 --> 00:04:07,230
 or publishing any papers about this.
-
+也别发这方面的论文
 90
 00:04:07,230 --> 00:04:10,370
 Do real math for a while
 to establish yourself."
-
+搞一段时间真正的数学来成就你自己
 91
 00:04:10,370 --> 00:04:12,650
-- [Narrator] Alex
-Kontorovich didn't listen.
-
+- [Narrator] Alex Kontorovich didn't listen.
+Alex Kontorovich 不听他的
 92
 00:04:12,650 --> 00:04:14,340
 He and Yakov Sinai
-
+他和 Yakov Sinai 
 93
 00:04:14,340 --> 00:04:16,890
-looked at the paths of
-the hailstone numbers.
-
+looked at the paths of the hailstone numbers.
+观察了一波这些冰雹数
 94
 00:04:16,890 --> 00:04:18,340
 Were there any patterns?
-
+看看有没有什么规律
 95
 00:04:18,340 --> 00:04:20,420
 But obviously all of them ended up at one.
-
+显然这些数最后都变成了 1
 96
 00:04:20,420 --> 00:04:23,740
 But what about the paths
 they take to get there?
-
+那变成 1 的路径呢
 97
 00:04:23,740 --> 00:04:26,610
 The pattern is randomness.
-
+完  全  随  机
 98
 00:04:26,610 --> 00:04:30,010
 Here is the sequence of a
 large number chosen at random.
-
+我们随便选一个超大的数
 99
 00:04:30,010 --> 00:04:32,050
 The graph peaks and then drop so low
-
+它的图像形成了一个尖峰然后掉到超低的地方
 100
 00:04:32,050 --> 00:04:34,720
 that you can't really see
 what's happening at this scale.
-
+在这个比例下你根本看不出来
 101
 00:04:34,720 --> 00:04:36,320
 But if you take the logarithm,
-
+但是如果用指数比例
 102
 00:04:36,320 --> 00:04:40,020
 you find this wiggly graph
 with a downward trend.
-
+你会看到这个一路蠕动下降的图
 103
 00:04:40,020 --> 00:04:42,950
 It looks like the stock
 market on a bad day.
-
+就好像股市大跌的一天的股价图
 104
 00:04:42,950 --> 00:04:45,010
 And this is no coincidence.
-
+而且这不是巧合
 105
 00:04:45,010 --> 00:04:48,560
 Both are examples of
 geometric Brownian motion.
-
+这两个都是几何布朗运动的例子
 106
 00:04:48,560 --> 00:04:51,870
 That means if you take the log
 and remove the linear trend,
-
+也就是 你取指数以后把它放平
 107
 00:04:51,870 --> 00:04:53,910
 the fluctuations are random.
-
+这些波动是随机的
 108
 00:04:53,910 --> 00:04:55,710
 It's like flipping a coin each step.
-
+就好像一次次抛硬币的结果
 109
 00:04:55,710 --> 00:04:58,030
 If the coin is heads, the line goes up,
-
+正面的话折线往上走
 110
 00:04:58,030 --> 00:05:00,070
 tails, it goes down.
-
+反面就往下走
 111
 00:05:00,070 --> 00:05:03,910
 3x+1 is just like the random
 wiggles of the stock market.
-
+3x+1 就好像是股市的波动（#REVIEW 直译是蠕动，上文用蠕动，但是怪死了）
 112
 00:05:03,910 --> 00:05:05,060
 Over long-enough periods,
-
+时间足够长
 113
 00:05:05,060 --> 00:05:07,320
 the stock market tends to trend upwards,
-
+股市趋向于上涨
 114
 00:05:07,320 --> 00:05:09,883
 while 3x+1 trends down.
-
+而 3x+1 趋向于下降
 115
 00:05:10,740 --> 00:05:12,470
 Another way to analyze 3x+1
-
+另一种分析 3x+1 的方式
 116
 00:05:12,470 --> 00:05:15,090
 is by looking at the
 leading digit of each number
-
+是去看一串数列里
 117
 00:05:15,090 --> 00:05:16,370
 in a sequence.
-
+每一个数字的首位
 118
 00:05:16,370 --> 00:05:19,020
 Here are the hailstone
 numbers starting with three
-
+这里我们选取 3 的冰雹数
 119
 00:05:19,020 --> 00:05:20,410
 as the seed.
-
+作为起点
 120
 00:05:20,410 --> 00:05:22,720
 And we can count up how many
 numbers start with a one,
-
+然后数有多少个数以 1 为首
 121
 00:05:22,720 --> 00:05:24,270
 how many start with a two,
-
+有多少个以 2 为首
 122
 00:05:24,270 --> 00:05:28,060
 how many start with a three,
 and so on to make a histogram.
-
+多少个以 3 为首，以此类推，做出一个直方图
 123
 00:05:28,060 --> 00:05:29,890
 We can do the same thing for the sequence
-
+同样的 我们看以 4 为起点的冰雹数
 124
 00:05:29,890 --> 00:05:32,990
-that starts with four,
-and that's a short one,
-
+that starts with four, and that's a short one,
+这就挺短的了
 125
 00:05:32,990 --> 00:05:37,990
 and for the sequences that
 start with five, six, and seven.
-
+然后以 5, 6, 7 为起点
 126
 00:05:38,190 --> 00:05:39,970
 Again, for each sequence,
-
+对于各个冰雹数列
 127
 00:05:39,970 --> 00:05:41,620
 we're just counting up how many numbers
-
+我们数数这些数的首位
 128
 00:05:41,620 --> 00:05:43,860
 start with each digit, one through nine,
-
+是 1~9 的分别有多少个
 129
 00:05:43,860 --> 00:05:46,780
 and adding that to our histogram.
-
+然后加到直方图里
 130
 00:05:46,780 --> 00:05:49,640
 If you keep doing this
 for more and more numbers,
-
+当你对足够多的数这样做以后
 131
 00:05:49,640 --> 00:05:53,690
 eventually the histogram
 settles into a stable pattern.
-
+最终直方图将呈现一个稳定的规律
 132
 00:05:53,690 --> 00:05:56,070
 For the first billion sequences,
-
+对于前十亿项
 133
 00:05:56,070 --> 00:06:00,700
 you'll find one is by far the
 most common leading digit.
-
+你会发现 1 做首位最多
 134
 00:06:00,700 --> 00:06:04,200
 30% of all numbers start with one,
-
+占到了总比例的 30%
 135
 00:06:04,200 --> 00:06:09,030
 around 17.5% start with
 two, 12% start with three,
-
+17.5% 以 2 打头，12% 以 3 打头
 136
 00:06:09,030 --> 00:06:11,710
 and the frequency decreases
 for higher digits.
-
+1~9 频率呈现递减趋势
 137
 00:06:11,710 --> 00:06:15,670
 Fewer than 5% of all the
 numbers start with nine.
-
+所有数中只有不到 5% 的以 9 打头
 138
 00:06:15,670 --> 00:06:19,250
 Now, this pattern is not unique to 3x+1.
-
+但是这个规律不仅限于 3x+1
 139
 00:06:19,250 --> 00:06:21,670
 It actually comes up everywhere,
-
+实际上它到处都有
 140
 00:06:21,670 --> 00:06:23,630
 from the populations of countries,
-
+从国家人口数
 141
 00:06:23,630 --> 00:06:25,330
 to the value of companies,
-
+到公司价值
 142
 00:06:25,330 --> 00:06:28,300
 all the physical constants
 and the Fibonacci numbers,
-
+到物理常数到斐波那契数
 143
 00:06:28,300 --> 00:06:30,070
 just to name a few.
-
+等等等等
 144
 00:06:30,070 --> 00:06:34,200
 The distribution is
 known as Benford's law,
-
+这个分布被称为本福特定律
 145
 00:06:34,200 --> 00:06:36,980
 and it is even used to detect fraud.
-
+它甚至被用来检测作弊
 146
 00:06:36,980 --> 00:06:38,750
 If all the numbers on
 your income tax forms
-
+如果你税务申报表上的所有数值
 147
 00:06:38,750 --> 00:06:39,770
 obey Benford's law,
-
+符合这个定律
 148
 00:06:39,770 --> 00:06:42,030
 then, well, you're probably being honest.
-
+那你挺诚实的
 149
 00:06:42,030 --> 00:06:44,720
 If not, you may be hiding something.
-
+没有的话 你是不是想搞事情
 150
 00:06:44,720 --> 00:06:46,400
 In elections, Benford's law can be used
-
+在选举中 本福特定律
 151
 00:06:46,400 --> 00:06:48,070
 to spot irregularities,
-
+也能用来发现异常
 152
 00:06:48,070 --> 00:06:50,420
 though you have to apply it correctly.
-
+但是要用对了
 153
 00:06:50,420 --> 00:06:53,030
 Benford's law works best
 when the numbers involved
-
+这一定律最佳的适用情况是
 154
 00:06:53,030 --> 00:06:55,200
 span several orders of magnitude
-
+数据集中的数跨越好几个数量级
 155
 00:06:55,200 --> 00:06:57,820
 as they do for 3x+1.
-
+就如 3x+1 一样
 156
 00:06:57,820 --> 00:06:59,990
 But Benford's law can't tell us
-
+不过它并不能告诉我们
 157
 00:06:59,990 --> 00:07:01,710
 whether all numbers will end up
-
+所有数字是不是最后都会
 158
 00:07:01,710 --> 00:07:04,800
 in the four, two, one loop or not.
-
+掉入 4, 2, 1 的循环
 159
 00:07:04,800 --> 00:07:07,970
 For that, we need a
